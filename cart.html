@@ -29,7 +29,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link " aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="shop.html">shop</a>
@@ -37,20 +37,7 @@
             <li class="nav-item">
               <a class="nav-link" href="cart.html">cart</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
+          
           </ul>
         </div>
       </div>
@@ -58,7 +45,7 @@
   </header>
   <main class="container" >
     <!-- Головний контент сторінки -->
-<section class="cart py-4">
+ <section class="cart py-4">
       <h2>Ваш кошик</h2>
       <div class="cart-items-list">
         У кошику ще немає товарів
@@ -67,6 +54,7 @@
         Сума замовлення: <span class="cart-total">0</span> грн.
       </div>
       <button id="orderBtn" class="cart-btn margin-y">Оформити замовлення</button>
+      <button id="deleteBtn" class="cart-btn margin-y">Очистити корзину</button>
     </section>
     <section class="order">
       <h2>Оформлення замовлення</h2>
@@ -108,7 +96,7 @@
           <label for="comment">Коментар:</label>
           <textarea class="form-control" id="comment" name="comment" rows="4"></textarea>
         </div>
-        <button type="submit" class="cart-btn margin-y">Підтвердити</button>
+        <button  type="button"  class="confirm-order-btn  margin-y">Підтвердити</button>
 
       </form>
     </section>
@@ -124,5 +112,6 @@
     crossorigin="anonymous"></script>
   <!-- Власні JS-файли -->
     <script src="main.js"></script>
+    <script src="cart.js"></script>
 </body>
 </html>

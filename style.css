@@ -1,49 +1,70 @@
-
 .navbar {
-    background-color: rgb(20, 37, 37, 75);
-
+  background-color: rgb(20, 37, 37, 75);
 }
 
-.navbar-nav{
-    gap: 50px;
+.navbar-nav {
+  gap: 50px;
+}
+.nav-link {
+  color: white;
+  font-size: 20px;
 }
 
-body{
-    background-image: url("/img/background1.png");
-    text-align: center;
-    background-size: cover; 
-    background-repeat: no-repeat;
-    background-position: center; 
-    margin: 0 auto;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+body {
+  background-image: url("/img/background1.png");
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: max-content;
 }
 
-.btn-outline-success:hover{
-    background-color: brown;
-    border-color: brown;
+.btn-outline-success:hover {
+  background-color: brown;
+  border-color: brown;
 }
 
 .card {
-    background-color: rgb(56, 57, 57);
-    color: white;
+  background-color: rgb(56, 57, 57);
+  color: white;
 }
 
-.btn-primary{
-    background-color: rgb(18, 108, 0);
-    border: 0;
-    color: black
+.btn-primary {
+  background-color: rgb(18, 108, 0);
+  border: 0;
+  color: black;
 }
 
-.btn-primary:hover{
-    background-color: rgb(43, 255, 0);
-    border: 0;
-    color: black
+.btn-primary:hover {
+  background-color: rgb(43, 255, 0);
+  border: 0;
+  color: black;
 }
 
-.products-list{ 
-    display: flex;
-    gap: 150px;
-    flex-wrap: wrap;
+.products-list {
+  display: flex;
+  gap: 150px;
+  flex-wrap: wrap;
+}
+
+.container {
+  color: #ffffff;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: start;
+}
+
+.cart-item {
+  border: 2px solid rgb(255, 255, 255);
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.order {
+  margin-top: 20px;
+  display: none;
 }
