@@ -18,13 +18,55 @@
         "description": "Power: 280 - 420 hp; Speed: 50 km/h; Fuel: 610 L"
     },
     {
-        "title": "Quadtrac Series",
+        "title": "Quadtrac",
         "price": 412000,
         "image": "FS19_CaseIH-QuadtracSeries.png",
         "description": "Power: 525 hp; Speed: 43 km/h; Fuel: 1880 L"
     },
+    {
+        "title": "REX 4 GT",
+        "price": 39500,
+        "image": "FS25_Landini_REX_4_GT.png",
+        "description": "Power: 70 - 112 hp; Speed: 40 km/h; Fuel: 80 L"
+    },
+    {
+        "title": "Quadtrac",
+        "price": 351000,
+        "image": "FS25_Case_IH_Magnum_AFS_Connect_Series.png",
+        "description": "Power: 374 - 435 hp; Speed: 50 km/h; Fuel: 647 L"
+    },
 
 
+
+
+    {
+        "title": "DDK 2400",
+        "price": 30500,
+        "image": "FS25_Farmtech_DDK_2400.png",
+        "description": "Capacity: 14 - 28 m3; Weight: 7 tons"
+    },
+    {
+        "title": "Big Body 750 S",
+        "price": 35500,
+        "image": "FS25_Krampe_Big_Body_750_S.png",
+        "description": "Capacity: 20-37.5 m3; Weight: 7.5tons"
+    },
+    {
+        "title": "Quadtrac Series",
+        "price": 46000,
+        "image": "FS25_GT_Bunning_Series_200.png",
+        "description": "Capacity: 26.7 m3; Weight: 7.8 tons"
+    },
+
+
+
+
+    {
+        "title": "Axial-Flow 7150",
+        "price": 301500,
+        "image": "FS25_Case_IH_Axial-Flow_7150.png",
+        "description": "Power: 449 hp; Speed: 20 km/h; Fuel: 960 L"
+    },
 
 
 
@@ -33,5 +75,38 @@
         "price": 12000,
         "image": "Kverneland-ab85.png",
         "description": "Working width: 1.9m Required power: 68 kW / 92 hp"
+    },
+    {
+        "title": "3020 TerraFlex 25FT",
+        "price": 12000,
+        "image": "FS22_terraFlex3020.png",
+        "description": "Width: 7.5 m; Work speed: 10 km/h"
+    },
+
+
+
+    {
+        "title": "MLT 841-145 PS+",
+        "price": 139000,
+        "image": "FS25_Mercedes-Benz_Actros_L.png",
+        "description": "Power: 141 hp; Speed: 40 km/h; Fuel: 126 L"
+    },
+
+
+    
+    {
+        "title": "Actros L",
+        "price": 124500,
+        "image": "FS25_Manitou_MLT_841-145_PS+.png",
+        "description": "Power: 326 - 625 hp; Speed: 90 km/h; Fuel: 890 L"
+    },
+
+
+
+        {
+        "title": "vGrab",
+        "price": 1200,
+        "image": "FS25_Lizard_vGrab.png",
+        "description": "Weight: 600 kg"
     }
 ]
